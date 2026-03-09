@@ -4,7 +4,7 @@ using MediatR;
 
 namespace Finance.API.Endpoints;
 
-internal sealed class AddFavoriteCurrencyEndpoint : IEndpoint
+internal sealed class AddFavoriteCurrenciesEndpoint : IEndpoint
 {
     public sealed class Request
     {

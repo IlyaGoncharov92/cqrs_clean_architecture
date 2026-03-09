@@ -17,4 +17,3 @@ internal sealed class LoginUserEndpoint : IEndpoint
         });
     }
 }
-
