@@ -4,7 +4,7 @@
 - Запущенный Postgres
 - Отредактировать `ConnectionString` в `Auth.API.appsettings.json` and `Finance.API.appsettings.json`
 - Тесты запускаются с `Testcontainers` (запустить `docker`)
-
+- Запустить одновременно три проекта: `Gateway.API` `Auth.API` `Finance.API`. Обращаться только к `Gateway.API` 
 
 ## Проекты
 

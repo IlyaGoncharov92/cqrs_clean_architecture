@@ -25,7 +25,7 @@ internal sealed class AddFavoriteCurrenciesEndpoint : IEndpoint
             await mediator.Send(command);
 
             return Results.Ok();
-        });
-        // .RequireAuthorization();
+        })
+        .RequireAuthorization();
     }
 }
